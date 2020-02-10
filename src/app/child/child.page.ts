@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./child.page.scss'],
 })
 export class ChildPage implements OnInit {
-
-  constructor() { }
-
+  constructor() {}
+  
   ngOnInit() {
+    
+  }
+  
+  didLoad(ev: CustomEvent) {
+    console.log('Web Component loaded', ev);
   }
 
 }
