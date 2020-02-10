@@ -1,4 +1,4 @@
-###Step to Reproduce
+### Steps to Reproduce
 
 1. Clone repo.
 2. `npm i && ionic serve`.
