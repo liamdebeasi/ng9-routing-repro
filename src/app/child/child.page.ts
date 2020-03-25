@@ -11,9 +11,4 @@ export class ChildPage implements OnInit {
   ngOnInit() {
     
   }
-  
-  didLoad(ev: CustomEvent) {
-    console.log('Web Component loaded', ev);
-  }
-
 }

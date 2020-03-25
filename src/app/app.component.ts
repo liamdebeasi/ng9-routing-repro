@@ -23,5 +23,9 @@ export class AppComponent {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
+
+    document.addEventListener('ionInputDidLoad', (ev) => {
+      console.log('Web Component loaded', ev);
+    });
   }
 }
